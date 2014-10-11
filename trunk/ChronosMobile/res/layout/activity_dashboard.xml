@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/borda_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btAgendamento"
+                style="@style/BotaoDashboard"
+                android:layout_gravity="center_vertical"
+                android:drawableTop="@drawable/button_agendamento_clicado"
+                android:onClick="realizarAgendamento"
+                android:text="@string/lb_agendamento" />
+
+            <Button
+                android:id="@+id/btCancelamento"
+                style="@style/BotaoDashboard"
+                android:drawableTop="@drawable/cancelar_agendamento_normal"
+                android:onClick="realizarCancelamento"
+                android:text="@string/lb_cancelamento" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btMeusAgendamentos"
+                style="@style/BotaoDashboard"
+                android:drawableTop="@drawable/minhas_senhas_normal"
+                android:onClick="meusAgendamentos"
+                android:text="@string/lb_meus_agendamentos" />
+
+            <Button
+                android:id="@+id/btAvaliarAtendimento"
+                style="@style/BotaoDashboard"
+                android:drawableTop="@drawable/avaliar_atendimento_normal"
+                android:onClick="avaliarAtendimentos"
+                android:text="@string/lb_avaliar_atendimento" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btPainelSenhas"
+                style="@style/BotaoDashboard"
+                android:drawableTop="@drawable/painel_senhas_normal"
+                android:onClick="verificarSenhaPainel"
+                android:text="@string/lb_painel_senhas" />
+
+            <Button
+                android:id="@+id/btMeusDados"
+                style="@style/BotaoDashboard"
+                android:drawableTop="@drawable/localizacao"
+                android:text="@string/lb_localizacao" 
+                android:onClick="localizarUnidades"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

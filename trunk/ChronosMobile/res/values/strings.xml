@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChronosApp</string>
+    <string name="app_name_full_name">Gestão de Atendimento Eletrônico</string>
+    <string name="app_versao">Versão 1.0.0-Alpha</string>
+    <string name="configuracao">Configuração</string>
+    <string name="alterar_meus_dados">Alterar Meus Dados</string>
+    <string name="relatar_problema">Alterar Meus Dados</string>
+    <string name="sobre">Sobre</string>
+    <string name="app_copyright">&#169; 2014 ChronosApp </string>
+    <string name="app_todos_direitos">Todos os direitos reservados</string>
+    <string name="sair">Sair</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Logout</string>
+    <string name="action_settings">Configuração</string>
+    <string name="lb_id">Integração</string>
+
+    <!-- Label's Agendamento -->
+    <string name="lb_agendamento_unidade_organizacional">UNIDADE ORGANIZACIONAL</string>
+    <string name="lb_agendamento_unidade_negocio">UNIDADE DE ATENDIMENTO</string>
+    <string name="lb_agendamento_servico">SERVIÇO</string>
+    <string name="lb_agendamento_data">DATA</string>
+    <string name="lb_agendamento_horario">HORÁRIO</string>
+    <!-- Label's -->
+    <string name="lb_agendamento">Realizar Agendamento</string>
+    <string name="lb_cancelamento">Cancelar Agendamento</string>
+    <string name="lb_meus_agendamentos">Minhas Senhas</string>
+    <string name="lb_avaliar_atendimento">Avaliar Atendimento</string>
+    <string name="lb_painel_senhas">Painel de Senhas</string>
+    <string name="lb_meus_dados">Meus Dados</string>
+    <string name="lb_localizacao">Localização da Unidade</string>
+    <string name="lb_img"></string>
+    <string name="lb_home">Início</string>
+    <string name="lb_configuracao">Configuração</string>
+    <string name="lb_alterar_meus_dados">Alterar Meus Dados</string>
+    <string name="lb_relatar_problema">Relatar um problema</string>
+    <string name="lb_notificacao">Notificação</string>
+    <string name="lb_sobre">Sobre</string>
+    <string name="lb_sair">Sair</string>
+    <string name="lb_login">LOGIN</string>
+    <string name="lb_senha">SENHA</string>
+    <string name="lb_logar">Confirmar</string>
+    <string name="lb_cadastrar">Cadastrar</string>
+    <string name="lb_link_esqueceu_senha">Esqueci minha senha</string>
+    <string name="lb_img_login">login img</string>
+    <string name="lb_OK">OK</string>
+    <string name="lb_carregando">Carregando</string>
+    <string name="lb_Listar">Listar</string>
+    <string name="lb_salvar">Salvar</string>
+
+    <!-- Label's Button -->
+    <string name="lb_btn_sim">Sim</string>
+    <string name="lb_btn_confirmar">Confirmar</string>
+    <string name="lb_btn_cancelar">Cancelar</string>
+    <string name="action_compose">Qualquer coisa</string>
+    <string name="action_search">Search</string>
+    <!-- Label's Confirmação Agendamento -->
+    <string name="lb_agendamento_confirmacao_agendamento_eletronico">AGENDAMENTO ELETRÔNICO</string>
+    <string name="lb_agendamento_confirmacao_numero_documento">CPF</string>
+    <string name="lb_agendamento_confirmacao_usuario">USUÁRIO</string>
+    <string name="lb_agendamento_confirmacao_unidade_atendimento">UNIDADE DE ATENDIMENTO</string>
+    <string name="lb_agendamento_confirmacao_servico">SERVIÇO</string>
+    <string name="lb_agendamento_confirmacao_senha">SENHA</string>
+    <string name="lb_agendamento_confirmacao_agendada">AGENDADA</string>
+
+    <!-- Label's Configuração -->
+    <string name="lb_configuracao_habilitar_notificacao">Habilitar Notificação</string>
+    <string name="lb_configuracao_notificacao_com_som">Notificação com Som</string>
+    <string name="lb_configuracao_notificacao_com_vibracao">Notificação com Vibração</string>
+    <string name="lb_configuracao_notificacao_a_cada_x_tempo">Notificar-me sobre o andamento das senhas no Painel a cada 5 minutos</string>
+    <!-- Mensagens Login -->
+    <string name="msg_login">Atenção: Login Obrigatório!</string>
+    <string name="msg_senha">Atenção: Senha Obrigatório!</string>
+    <string name="msg_sobre">Todos os direitos reservados!</string>
+    <string name="msg_sair">Deseja encerrar o Chronos ?</string>
+
+    <!-- Mensagens Avaliação de Atendimentos -->
+    <string name="msg_avaliacao_atendimento_nao_ha_atendimentos">Não há atendimentos para avaliação.</string>
+    <!-- Label's Avaliação de Atendimentos -->
+    <string name="lb_avaliacao_atendimento_tipo_avaliacao">Tipo de Avaliação</string>
+    <string name="lb_avaliacao_atendimento_item_avaliacao">Item da Avaliação</string>
+    <string name="lb_avaliacao_atendimento_descricao">Descrição da Avaliação</string>
+
+    <!-- Mensagens Agendamento -->
+    <string name="msg_agendamento_informe_unidade_organizacional">Informe uma Unidade Organizacional</string>
+    <string name="msg_agendamento_informe_unidade_negocio">Informe uma Unidade de Atendimento</string>
+    <string name="msg_agendamento_informe_servico">Informe um Serviço</string>
+    <string name="msg_agendamento_informe_data">Informe uma Data</string>
+    <string name="msg_agendamento_informe_horario">Informe um Horário</string>
+    <string name="msg_cancelamento_agendamento_sem_registros">Você não possui nenhum agendamento!</string>
+    <string name="msg_minhas_senhas_sem_registros">Você não possui nenhuma senha!</string>
+
+    <!-- Label's Extra - Agendamentos -->
+    <string name="lb_requisicao_unidade_organizacional_selecionada_agendamento">unidadeOrganizacionalSelecionadaAgendamento</string>
+    <string name="lb_requisicao_unidade_negocio_selecionada_agendamento">unidadeAtendimentoSelecionada</string>
+    <string name="lb_requisicao_servico_selecionado_agendamento">servicoSelecionadoAgendamento</string>
+    <string name="lb_requisicao_grade_servico_selecionada_agendamento">gradeServicoSelecionadaAgendamento</string>
+    <string name="lb_requisicao_horario_selecionado_agendamento">horarioSelecionadoAgendamento</string>
+    <string name="lb_requisicao_senha_confirmada_agendamento">senhaConfirmadaAgendamento</string>
+    <string name="lb_requisicao_cancelar_agendamento">agendamentoCancelamento</string>
+    <string name="msg_erro_chronos_comunicacao_servico">Problemas na comunicação com o Servidor</string>
+    <string name="lb_requisicao_avaliacao_atendimento_tipo_avaliacao">tipoAvaliacaoAtendimento</string>
+    <string name="lb_requisicao_avaliacao_atendimento_item_avaliacao">itemAvaliacaoAtendimento</string>
+    <string name="lb_requisicao_listar_senhas_avaliacoes">listarSenhaAvaliacao</string>
+    <!-- Label's Extra - Senha Painel -->
+    <string name="lb_senha_painel_titulo">Painel de Senha</string>
+
+    <!-- Label's Formatações -->
+    <string name="lb_formatacao_data_hora">dd/MM/yyyy HH:mm:ss</string>
+    <!-- URL's Rest -->
+    <string name="url_rest_autenticacao">http://homologacao.abaco.com.br/sga/res/auth/autenticar</string>
+    <string name="url_rest_listar_unidades_organizacionais_ativas">http://homologacao.abaco.com.br/sga/res/unidadeorganizacional/unidadesativas</string>
+    <string name="url_rest_listar_unidades_negocio_por_unidade_organizacional">http://homologacao.abaco.com.br/sga/res/unidadenegocio/listarporunidadeorganizacional</string>
+    <string name="url_rest_listar_servicos_por_unidade_negocio">http://homologacao.abaco.com.br/sga/res/unidadeservicoatividade/listarporunidadenegocio</string>
+    <string name="url_rest_listar_datas_disponiveis_agendamento">http://homologacao.abaco.com.br/sga/res/gradehorario/listardatagradehorariodisponivel</string>
+    <string name="url_rest_listar_horarios_disponiveis_agendamento">http://homologacao.abaco.com.br/sga/res/gradeservico/listarhorarios</string>
+    <string name="url_rest_realizar_agendamento">http://homologacao.abaco.com.br/sga/res/agendamento/realizaragendamento</string>
+    <string name="url_rest_listar_agendamento_para_cancelamento">http://homologacao.abaco.com.br/sga/res/agendamento/listaragendamentoparacancelamento</string>
+    <string name="url_rest_cancelar_agendamento">http://homologacao.abaco.com.br/sga/res/agendamento/cancelaragendamento</string>
+    <string name="url_rest_meus_agendamentos">http://homologacao.abaco.com.br/sga/res/agendamento/meusagendamentos</string>
+    <string name="url_rest_painel_senhas">http://homologacao.abaco.com.br/sga/res/senhapainel/mostrarsituacaopainel</string>
+    <string name="url_rest_listar_atendimentos_para_avaliacao">http://homologacao.abaco.com.br/sga/res/atendimento/listaratendimentosparaavaliacao</string>
+    <string name="url_rest_listar_itens_avaliacao">http://homologacao.abaco.com.br/sga/res/atendimento/listaritensavaliacao</string>
+    <string name="url_rest_avaliar_atendimento">http://homologacao.abaco.com.br/sga/res/atendimento/avaliaratendimento</string>
+    
+<!--     <string name="url_rest_autenticacao">http://192.168.0.101:9090/sga/res/auth/autenticar</string> -->
+<!--     <string name="url_rest_listar_unidades_organizacionais_ativas">http://192.168.0.101:9090/sga/res/unidadeorganizacional/unidadesativas</string> -->
+<!--     <string name="url_rest_listar_unidades_negocio_por_unidade_organizacional">http://192.168.0.101:9090/sga/res/unidadenegocio/listarporunidadeorganizacional</string> -->
+<!--     <string name="url_rest_listar_servicos_por_unidade_negocio">http://192.168.0.101:9090/sga/res/unidadeservicoatividade/listarporunidadenegocio</string> -->
+<!--     <string name="url_rest_listar_datas_disponiveis_agendamento">http://192.168.0.101:9090/sga/res/gradehorario/listardatagradehorariodisponivel</string> -->
+<!--     <string name="url_rest_listar_horarios_disponiveis_agendamento">http://192.168.0.101:9090/sga/res/gradeservico/listarhorarios</string> -->
+<!--     <string name="url_rest_realizar_agendamento">http://192.168.0.101:9090/sga/res/agendamento/realizaragendamento</string> -->
+<!--     <string name="url_rest_listar_agendamento_para_cancelamento">http://192.168.0.101:9090/sga/res/agendamento/listaragendamentoparacancelamento</string> -->
+<!--     <string name="url_rest_cancelar_agendamento">http://192.168.0.101:9090/sga/res/agendamento/cancelaragendamento</string> -->
+<!--     <string name="url_rest_meus_agendamentos">http://192.168.0.101:9090/sga/res/agendamento/meusagendamentos</string> -->
+<!--     <string name="url_rest_painel_senhas">http://192.168.0.101:9090/sga/res/senhapainel/mostrarsituacaopainel</string> -->
+<!--     <string name="url_rest_listar_atendimentos_para_avaliacao">http://192.168.0.101:9090/sga/res/atendimento/listaratendimentosparaavaliacao</string> -->
+<!--     <string name="url_rest_listar_itens_avaliacao">http://192.168.0.101:9090/sga/res/atendimento/listaritensavaliacao</string> -->
+<!--     <string name="url_rest_avaliar_atendimento">http://192.168.0.101:9090/sga/res/atendimento/avaliaratendimento</string> -->
+
+</resources>

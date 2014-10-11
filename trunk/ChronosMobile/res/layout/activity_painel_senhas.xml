@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borda_painel_senhas"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_large" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/padding_small"
+                 android:gravity="center_vertical"
+                android:text="@string/lb_senha_painel_titulo"
+                android:textColor="#FFFFFF"
+                 android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/idSenhaPainel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_small"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/idNotificacaoTempoAtendimento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_small" />
+
+        <ListView
+            android:id="@+id/listViewSenhasChamadasPainel"
+            android:background="@drawable/borda_painel_senhas_listview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
