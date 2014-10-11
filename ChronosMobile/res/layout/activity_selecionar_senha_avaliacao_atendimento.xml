@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large" >
+
+    <LinearLayout
+        android:id="@+id/idLinearLayoutAvaliacaoAtendimentoComRegistros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borda_1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large" >
+
+        <ListView
+            android:id="@+id/listViewSelecionarSenhaAvaliacaoAtendimento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idLinearLayoutAvaliacaoAtendimentoSemRegistros"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/borda_painel_senhas_listview"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/lb_img_login"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/avaliar_atendimento_normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/msg_avaliacao_atendimento_nao_ha_atendimentos"
+            android:textColor="#367"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

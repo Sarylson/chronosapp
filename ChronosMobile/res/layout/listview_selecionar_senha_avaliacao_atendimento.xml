@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/idRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtAvaliacaoAtendimentoSenha"
+        style="@style/TextBoxShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAvaliacaoAtendimentoData"
+        style="@style/TextBoxShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:padding="@dimen/padding_small"
+        android:textIsSelectable="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtAvaliacaoAtendimentoServico"
+        style="@style/TextBoxShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:padding="@dimen/padding_small"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+   <TextView
+        android:id="@+id/txtAvaliacaoAtendimentoAvaliado"
+        style="@style/TextBoxShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:padding="@dimen/padding_small"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

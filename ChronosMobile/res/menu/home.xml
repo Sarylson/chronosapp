@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.abaco.chronos.menubar.HomeActivity" >
+
+    <item
+        android:id="@+id/idBackMenu"
+        android:icon="@drawable/icons_voltar"
+        android:title="@string/action_example"
+        android:visible="false"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home_blank"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_configuracao"
+        android:icon="@drawable/ic_action_settings_blank"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_alterar_meus_dados"
+        android:icon="@drawable/ic_action_edit_blank"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_sobre"
+        android:icon="@drawable/info_blank"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_example_logout"
+        android:icon="@drawable/logout"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom"
+        />
+
+</menu>
